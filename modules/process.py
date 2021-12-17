@@ -1,9 +1,6 @@
 import subprocess, psutil, os, re
 
 def getListOfProcessSortedByMemory():
-    '''
-    Get list of running process sorted by Memory Usage
-    '''
     listOfProcObjects = []
     for proc in psutil.process_iter():
        try:
@@ -24,8 +21,6 @@ def getProcessHighestMemoryUsage():
         print(f"pid: {elem.get('pid')}, name: {elem.get('name')}, username: {elem.get('username')}, vms: {elem.get('vms')}MB")
 
     print('--------------------------------------------------------------')
-
-#---------------------------------------------------------------------------------------------
 
 def processCheck(proc_name):
     ps = subprocess.Popen("ps ax -o pid= -o args= ", shell=True, stdout=subprocess.PIPE, universal_newlines=True)
