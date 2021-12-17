@@ -1,10 +1,3 @@
-"""
-Name: Automation Tool
-Author :  Samir Nabadov
-Position: DevOps Engineer
-Description : Automation Tool based Python
-Source Code Website : www.github.com/...
-"""
 import sys, os, pyfiglet, subprocess, time
 
 from modules.uptime import *
@@ -39,10 +32,10 @@ Optional arguments:
 
 def banner():
     os.system("clear")
-    print("-----------------------------------------------------------------------------")
+    print("------------------------------------------------------------------------")
     result = pyfiglet.figlet_format("Python Script")
     print(result)
-    print("-----------------------------------------------------------------------------")
+    print("------------------------------------------------------------------------")
     
 def header():
     banner()
