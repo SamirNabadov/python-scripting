@@ -23,7 +23,7 @@ Dependencies
 
 Note
 ------------
-* Libraries for python scripting are widely used in writing functions. Some of the functions I have written here are based on the articles I read and video tutorials. You can also use the functions in the moludes folder separately.
+Many useful python libraries were used for the script. Some functions are based on articles and videos. The functions in the Modules folder can also be used separately.
 
 Running the script
 ----------------------
