@@ -20,6 +20,7 @@ Dependencies
 ------------
 * Requires elevated root privileges
 * Requires internet connection to download the necessary python modules
+* Requires a Linux based system
 
 Note
 ------------
