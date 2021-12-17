@@ -7,8 +7,8 @@ __Functionality__
 ------------
 * Port scanner
 * Subnet calculator
-* functions for get details about system, disks
-* functions for file, user and process operations
+* Functions for get details about system, disks
+* Functions for file, user and process operations
 * Password validator and generator
 
 
