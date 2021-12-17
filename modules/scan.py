@@ -42,8 +42,8 @@ def ipAddrValid(ip):
 
 def portScan():
     remoteServer = input("Enter a remote host to scan: ")
-    startPort = int(input("Enter start port (0-65535): "))
-    endPort = int(input("Enter end port (0-65535): "))
+    startPort = int(input("Enter start port (1-65535): "))
+    endPort = int(input("Enter end port (1-65535): "))
 
     try:
         if ipAddrValid(remoteServer) == True or validators.domain(remoteServer) == True:
