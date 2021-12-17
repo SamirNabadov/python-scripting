@@ -40,7 +40,7 @@ Optional arguments:
 def banner():
     os.system("clear")
     print("-----------------------------------------------------------------------------")
-    result = pyfiglet.figlet_format("Python CLI Tool")
+    result = pyfiglet.figlet_format("Python Script")
     print(result)
     print("-----------------------------------------------------------------------------")
     
