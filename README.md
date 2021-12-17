@@ -32,6 +32,8 @@ __To Run__
 
 `python3 tool.py`
 
+![Screenshot](Python-script.PNG)
+
 __Author Information__
 ------------------
 
