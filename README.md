@@ -3,7 +3,7 @@ __Python scripting__
 
 Python script that includes many functions as Command Line Tool
 
-__functionality__
+__Functionality__
 ------------
 * Port scanner
 * Subnet calculator
@@ -27,7 +27,7 @@ Note
 Running the script
 ----------------------
 
-__To run__
+__To Run__
 
 `python3 tool.py`
 
