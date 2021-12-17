@@ -22,7 +22,7 @@ Dependencies
 
 Note
 ------------
-* You can also use the functions in the moludes folder separately.
+* Libraries for python scripting are widely used in writing functions. Some of the functions I have written here are based on the articles I read and video tutorials. You can also use the functions in the moludes folder separately.
 
 Running the script
 ----------------------
